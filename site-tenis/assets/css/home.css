@@ -1,9 +1,3 @@
-a {
-    text-decoration: none;
+body {
+    font-family: var(--fonte-principal);
 }
-
-.container {
-    display: flex;
-    align-items: center;
-}
-
