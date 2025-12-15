@@ -22,18 +22,17 @@ ul {
 /* Header */
 header {
     background-color: #fff;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
 }
 
-header > .container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header .logo img {
-    height: 40px;
+    height: 48px;
 }
 
 .menu-principal ul {
