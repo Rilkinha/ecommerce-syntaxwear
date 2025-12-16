@@ -76,7 +76,7 @@ header .logo img {
 }
 
 .icones img {
-    height: 48px;
+    height: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
