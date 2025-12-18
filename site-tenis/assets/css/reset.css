@@ -60,7 +60,18 @@ a:not([class]) {
   color: currentColor;
 }
 
-/* 8. Make images easier to work with */
+/* 8. padronizar todos os "a" */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 9. padronizar todos os "ul,ol" */
+ul,ol{
+  list-style: none;
+}
+
+/* 10. Make images easier to work with */
 img,
 picture,
 video,
@@ -70,7 +81,7 @@ svg {
   display: block;
 }
 
-/* 9. Inherit fonts for inputs and buttons */
+/* 11. Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -79,17 +90,17 @@ select {
   font-size: inherit;
 }
 
-/* 10. Make sure textareas without a rows attribute are not tiny */
+/* 12. Make sure textareas without a rows attribute are not tiny */
 textarea:not([rows]) {
   min-height: 10em;
 }
 
-/* 11. Anything that has been anchored to should have extra scroll margin */
+/* 13. Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
 }
 
-/* 12. Prevent font size inflation */
+/* 14. Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
