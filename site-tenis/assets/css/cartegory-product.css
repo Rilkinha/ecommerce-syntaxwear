@@ -13,7 +13,7 @@
     width: 317px;
     height: 500px;
     border-radius: 16px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .category-name {
