@@ -1,5 +1,5 @@
 .hero-section{
-    background: url(../img/banner/modelo-principal.jpg) no-repeat center;
+    background: url(../img/banner/modelo\ principal.svg) no-repeat center;
 
     height: 500px;
     position: relative;
@@ -20,6 +20,7 @@
     color: #ffffff;
     max-width: 388px;
     text-align: center;
+    margin-top: 11.3125rem;
 }
 
 .hero-subtittle {

@@ -2,10 +2,12 @@
 body {
     font-family: var(--fonte-principal);
     color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-    padding: 2.5rem 0 0;
+    padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
     margin: 0 auto;
     bottom: 100px;
@@ -24,7 +26,7 @@ main {
 }
 
 .btn:hover, .btn-right:hover {
-    background-color: #7c3ead;
+    background-color: #7d3eac;
     border: #7c3ead;
     color: #ffffff
 }

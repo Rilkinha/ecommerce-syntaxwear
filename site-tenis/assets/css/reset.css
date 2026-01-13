@@ -67,8 +67,10 @@ a {
 }
 
 /* 9. padronizar todos os "ul,ol" */
-ul,ol{
+ul,ol,li{
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* 10. Make images easier to work with */
