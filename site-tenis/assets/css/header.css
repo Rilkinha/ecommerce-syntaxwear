@@ -96,7 +96,7 @@
     .nav-container {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: -200%;
         width: 200px;
         flex-direction: column;
         padding: 80px 20px 20px;
@@ -139,4 +139,11 @@
     .menu-toggle:checked ~ .nav-container {
         right: 0;
     }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 90%;
+    }
+
 }

@@ -13,6 +13,12 @@ main {
     bottom: 100px;
 }
 
+@media (max-width:1280px) {
+    main{
+        padding: 0.62rem;
+    }
+}
+
 /* btn-global */
 .btn{
     font-size: 1.25rem;

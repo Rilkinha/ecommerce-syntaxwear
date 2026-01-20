@@ -1,6 +1,6 @@
 .top1 {
     grid-area: top1;
-    background-image: url(../img/products/modelo\ principal.svg);
+    background: url(../img/products/../banner/modelo\ principal\ mobile\ 1.jpg) center;
     position: relative;
     background-size: cover;
     border-radius: 20px;
@@ -75,4 +75,32 @@
 .buttom-grid {
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .products-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas: 
+        "top1 top1"
+        "bottomL bottomL"
+        "midL midR"
+        "midL bottomR"
+        "top2 top2";
+        max-width: 100%;
+        gap: 0,625rem;
+    }
+
+    .top1 {
+        min-height: 500px;
+    }
+
+    .bottomL, .top2 {
+        min-height: 190px;
+    }
+
+    .midL {
+        min-height: 370px;
+    }
+
 }
